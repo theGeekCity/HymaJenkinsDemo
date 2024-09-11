@@ -6,14 +6,14 @@ Feature: Feature1
     Then test step step 1
 
 
-  @smoke526
+  @reg
   Scenario: Feature 2 Scenario 2
     Given test case is Feature 2 Scenario 1
     Then test step step 1
     And test step step 2
 
 
-  @smokereg312
+  @smoke
   Scenario: Feature 2 Scenario 3
     Given test case is Feature 2 Scenario 3
     Then test step step 1
@@ -21,7 +21,7 @@ Feature: Feature1
     And test step step 3
 
 
-  @smoke
+  @reg
   Scenario: Feature 2 Scenario 4
     Given test case is Feature 2 Scenario 4
     Then test step step 1
