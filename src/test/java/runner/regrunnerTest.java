@@ -19,4 +19,6 @@ public class regrunnerTest {
 //mvn test -Dcucumber.filter.tags="@smoke" -Dcucumber.plugin="html:target/cucumberHTMLReports/cucumber.html"
 //    mvn clean -Dtest=regrunnerTest test
 
+//   mvn -Denv=QA -Dusername=myname -Dpassword=mypwd clean -Dtest=regrunnerTest test
+
 }

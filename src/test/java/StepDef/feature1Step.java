@@ -12,5 +12,10 @@ public class feature1Step {
     @And("test step step {int}")
     public void testStepStep(int arg0) {
         System.out.println(" Test step"+ arg0);
+        System.out.println("env:"+System.getProperty("env"));
+//        System.out.println("env:"+ env);
+        System.out.println("username:"+System.getProperty("username"));
+        System.out.println("password:"+System.getProperty("password"));
+
     }
 }
